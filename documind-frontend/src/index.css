@@ -1,0 +1,111 @@
+/* ---------- Global ---------- */
+body {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  min-height: 100vh;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  color: #0f172a;
+}
+
+/* ---------- Layout ---------- */
+.app-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 48px 16px 80px;
+}
+
+/* ---------- Headings ---------- */
+.app-title {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1e293b;
+}
+
+.app-subtitle {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+/* ---------- Cards ---------- */
+.card {
+  border-radius: 16px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border: none;
+  padding: 10px 18px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  opacity: 0.95;
+}
+
+.btn-outline-primary {
+  border-color: #6366f1;
+  color: #4f46e5;
+}
+
+.btn-outline-primary:hover {
+  background-color: #eef2ff;
+}
+
+/* ---------- Upload ---------- */
+.upload-box {
+  border: 2px dashed #c7d2fe;
+  border-radius: 14px;
+  padding: 28px;
+  text-align: center;
+  background: #f8fafc;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.upload-box:hover {
+  border-color: #6366f1;
+  background: #eef2ff;
+}
+
+/* ---------- Summary ---------- */
+.summary-text {
+  line-height: 1.7;
+  color: #334155;
+}
+
+/* ---------- Accordion ---------- */
+.accordion-button {
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #eef2ff;
+  color: #4338ca;
+}
+
+.accordion-body {
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* ---------- Utility ---------- */
+.badge-soft {
+  background: #eef2ff;
+  color: #4338ca;
+  font-weight: 500;
+}

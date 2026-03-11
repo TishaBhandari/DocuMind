@@ -1,0 +1,12 @@
+Artificial Intelligence (AI) refers to computer systems designed to perform tasks that normally
+require human intelligence. These tasks include learning, reasoning, problem-solving, and
+understanding language. AI systems are commonly classified into narrow AI, which is designed for
+a specific task, and general AI, which aims to perform any intellectual task a human can do.
+Machine learning is a major subset of AI. It focuses on enabling systems to learn from data rather
+than relying on explicitly programmed rules. Popular machine learning approaches include
+supervised learning, unsupervised learning, and reinforcement learning. Large Language Models
+(LLMs) are a recent advancement in AI. They are trained on vast amounts of text data and can
+generate human-like responses, summarize documents, answer questions, and assist with
+programming tasks. Due to their size and complexity, efficient evaluation and summarization testing
+is important. This short document is intentionally concise and suitable for testing text summarization
+models without exceeding free API usage limits.
